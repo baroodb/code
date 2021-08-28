@@ -7,3 +7,9 @@ def getuser():
     data = pd.DataFrame(data=data)
     return data
 
+
+def setuser(user):
+    """
+    Take the new user you wanna set
+    """
+    return user
